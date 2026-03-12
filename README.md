@@ -13,3 +13,14 @@ AWS networking practice for my transition from Cloud Support Engineer to DevOps 
 You can download the full Day 1 documentation here:
 
 [Download PDF](notes/aws_day1_detailed_lab_documentation.pdf)
+
+## Day 2 – NAT Instance Architecture
+
+Private EC2 instances access the internet through a NAT instance.
+
+Key concepts:
+- Private vs Public subnet
+- Internet Gateway
+- NAT configuration
+- Linux iptables MASQUERADE
+- Source/Destination check
