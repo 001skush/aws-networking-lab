@@ -24,6 +24,10 @@ Topics covered:
 * Route tables
 * Basic AWS network architecture
 
+### Day 1 Architecture
+
+![VPC Architecture](diagrams/day1-architecture.png)
+
 📂 Folder: `diagrams/`
 
 ---
@@ -39,5 +43,9 @@ Topics covered:
 * IP forwarding
 * Linux `iptables` NAT
 * Private subnet outbound internet access
+
+### Day 2 – Architecture
+
+![NAT Architecture](day2-nat-instance/architecture.png)
 
 📂 Folder: [Day 2 NAT Instance](day2-nat-instance)
