@@ -1,26 +1,43 @@
-# aws-networking-lab
-AWS networking practice for my transition from Cloud Support Engineer to DevOps Engineer
+# AWS Networking Lab
 
+AWS networking practice for my transition from **Cloud Support Engineer → DevOps / Cloud Engineer**.
 
-## Day 1 Architecture
+This repository documents my hands-on AWS networking labs including:
 
-![AWS Architecture](diagrams/day1-architecture.png)
+* VPC architecture
+* Route tables
+* NAT configuration
+* Security components
+* Subnet design
 
-## Documentation
+---
 
-### Day 1 Detailed Lab Notes
+# Labs
 
-You can download the full Day 1 documentation here:
+## Day 1 – VPC Basics
 
-[Download PDF](notes/aws_day1_detailed_lab_documentation.pdf)
+Topics covered:
+
+* VPC creation
+* Public and private subnets
+* Internet Gateway
+* Route tables
+* Basic AWS network architecture
+
+📂 Folder: `diagrams/`
+
+---
 
 ## Day 2 – NAT Instance Architecture
 
-Private EC2 instances access the internet through a NAT instance.
+This lab demonstrates how a **private EC2 instance accesses the internet through a NAT Instance located in a public subnet**.
 
-Key concepts:
-- Private vs Public subnet
-- Internet Gateway
-- NAT configuration
-- Linux iptables MASQUERADE
-- Source/Destination check
+Topics covered:
+
+* NAT instance setup
+* Route table configuration
+* IP forwarding
+* Linux `iptables` NAT
+* Private subnet outbound internet access
+
+📂 Folder: [Day 2 NAT Instance](day2-nat-instance)
